@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+ 
+double pyramid (double a, double b, double c)
+{
+  double pyr_vol;
+  pyr_vol=((0.5*a*b)*c);
+  return (pyr_vol);
+}
+
+int main ()
+{
+  double l,w,h;
+  double pyr;
+ {
+ cout<<"Press the Enter key to begin keying in the dimension of pyramid";
+ cin>>0
+ cout<<"Enter length";
+ cin>>l;
+ cout<<"Enter width";
+ cin>>w;
+ cout<<"Enter height";
+ cin>>h;
+ pyr = pyramid (l,w,h);
+ cout << "The volume of the pyramid is "<<pyr;
+ }
+  return 0;
+}
